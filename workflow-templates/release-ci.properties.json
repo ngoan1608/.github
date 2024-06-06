@@ -1,0 +1,13 @@
+{
+   "name": "RobotFramework AIO - Package Release Workflow",
+   "description": "Release workflow for python package",
+   // "iconName": "example-icon",
+   "categories": [
+       "Python"
+   ],
+   "filePatterns": [
+      "setup.py",
+      "genpackagedoc.py",
+      ".*\\version.py$"
+   ]
+}
