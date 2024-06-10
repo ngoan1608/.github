@@ -7,5 +7,5 @@ on:
       - "rel/*.*.*.*"
 
 jobs:
-  build-n-publish:
-    uses: ngoan1608/.github/.github/workflows/release.yml@develop
+  uses: ngoan1608/.github/.github/workflows/release.yml@develop
+  secrets: inherit
