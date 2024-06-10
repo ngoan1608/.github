@@ -2,9 +2,6 @@ name: Publish to PyPI and Create Github Release due to rel/ tag
 
 on:
   workflow_call:
-    secrets:
-      token:
-        required: true
 
 jobs:
   build-n-publish:
