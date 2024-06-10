@@ -8,4 +8,4 @@ on:
 
 jobs:
   build-n-publish:
-    uses: ./workflows/release.yml@develop
+    uses: ngoan1608/.github/.github/workflows/release.yml@develop
