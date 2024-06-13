@@ -38,10 +38,11 @@ jobs:
 
       - name: Publish distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with: 
+        with:
           skip-existing: true
+          verbose: true
           password: ${{ secrets.PYPI_API_TOKEN }} # This token should be created in Settings > Secrets > Actions
-          repository_url: https://test.pypi.org/legacy/ # Use this for testing to upload the distribution to test.pypi
+          repository-url: https://test.pypi.org/legacy/ # Use this for testing to upload the distribution to test.pypi
 
       - name: Create/Update GitHub Release
         id: create_update_release
